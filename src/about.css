@@ -1,0 +1,291 @@
+/* .first, .second
+{
+    background-color: black;
+    height:425px;
+    width:400px;
+    border-radius: 10px;
+    padding:20px;
+    background-image: none;
+
+}
+
+.first
+{
+    background-image: url('../src/Images/ted1.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 400px 425px;
+    transition: background-image 0.3s ease-in-out;
+}
+
+
+.second
+{
+    background-image: url('../src/Images/team.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 400px 425px;
+    transition: background-image 0s ease-in-out;
+}
+
+
+
+.contri{
+    padding-top:300px;
+    
+}
+
+
+
+.back
+{
+    display:none;
+    transition: 1 s;
+}
+
+
+.contri:hover .back
+{
+    display: block;
+    transform: translateY(-13px); 
+    
+    
+}
+
+.contri:hover
+{
+    padding-top: 0;
+    background-image: none;
+    background-color: aliceblue;
+    padding: 20px;
+    transform: translate();
+    transition: all in ease 1s;
+    
+}
+.jac
+{
+    color:darkblue;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+ 
+.container
+{
+    display: flex;
+    justify-content: space-around;
+    padding:30px;
+}
+
+ .img-img
+ {
+    height:400px;
+    width:400px;
+ } */
+
+ .card
+ {
+    overflow:hidden;
+    border-radius: 3px;
+  }
+
+  .teg{
+    
+   color:black;
+   text-align: center;
+    
+}
+
+.open
+{
+    height:600px;
+    background-image:url('../src/Images/back.jpg');
+    color:black;  
+ 
+}
+
+
+.projects
+{
+    font-size: 3em;
+    color:white;
+    text-align: center;
+    padding-top: 20px;
+    margin-top: 0;
+
+}
+
+
+.container
+{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.card
+{
+    height: 380px;
+    width: 300px;
+    margin-top: 100px;
+
+    box-shadow: 5px 5px 20px black;  
+}
+
+.picer
+{
+    height: 400px;
+    width: 300px;
+    border-radius: 3px;
+    /* display: none; */
+}
+
+
+.intro-2
+{
+    position: absolute;
+    bottom:0px;
+    color: white;
+    background-color: rgb(57, 56, 56);
+    height:55px;
+    border-radius: 10px;
+    width:100%;
+}
+
+.intro-para
+{
+    margin-bottom:0;
+    display:none;
+    text-align: center;
+    padding: 0;;
+            
+}
+
+
+.tpoic
+{
+    font-size: 1.75em;
+    padding: 10px;
+    margin-bottom: 0;
+    text-align: center;
+    width:100%;
+    
+    background-color: rgb(57, 56, 56);
+}
+
+.card:hover .intro-2
+{
+    position: relative;
+    bottom: 25px;
+    height:1455px;
+    /* transition: 0.5s; */
+}
+
+.card:hover .jagger1
+{
+    position: relative;
+    bottom: 0px;
+    transition: 1s;
+}
+
+.card:hover .jagger2
+{
+    position: relative;
+    bottom: 105px;
+    padding:10px;
+    transition: 0.5s;
+
+}
+
+.card:hover .intro-para{
+    visibility: visible;
+    opacity: 1;
+    display:block;
+    
+}
+
+.button
+{
+    border-radius: 10px;
+    font-size: 20px;
+    text-align: center;
+    margin-left: 60px;
+    visibility: hidden;
+    opacity: 0;
+    background-color:rgb(181, 8, 8); 
+    padding:10px;
+    color:aliceblue;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.card:hover .button{
+    visibility: visible;
+    opacity: 1;
+}
+
+
+.card:hover
+{
+    /* transform: scale(1.1) rotate(-3deg); */
+    transform: scale(1.1) ;
+    transition: 0.5s;
+}
+
+
+
+
+
+
+
+
+
+/* 
+.img
+{
+    height:400px;
+    width:500px;
+    border-radius: 3px;
+    
+}
+
+.card
+{
+    height: 500px;
+    width:500px;
+    margin: 50px;
+    box-shadow: 5px 5px 20px black;
+    overflow: hidden;
+}
+ 
+.container
+{
+    display:flex;
+    justify-content:space-evenly;
+}
+
+p
+{
+    width:400px;
+}
+
+.intro
+{
+    height:200px;
+    width:350px;
+    padding:6px;
+    background: rgb(27,27,27 ,.5);
+    color:white;
+} */
+
+
+@media only screen and (max-width: 600px) {
+    .open
+    {
+        height:1200px;
+    }
+    .container
+    {
+        display: grid;
+        grid-row-gap: 10%;
+    }
+   
+  }
